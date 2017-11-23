@@ -1,0 +1,13 @@
+PN: quectel-common-api
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Common API
+SUMMARY: quectel-common-api version git-invalidgit-r01
+SECTION: base
+PKG_quectel-common-api-locale: quectel-common-api-locale
+FILES_quectel-common-api-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-common-api-locale: 0

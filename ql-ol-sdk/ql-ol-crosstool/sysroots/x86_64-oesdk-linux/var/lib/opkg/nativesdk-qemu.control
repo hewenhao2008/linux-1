@@ -1,0 +1,13 @@
+Package: nativesdk-qemu
+Version: 2.2.0-r1
+Description: Fast open source processor emulator
+ Fast open source processor emulator.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & LGPLv2.1
+Architecture: x86_64-nativesdk
+OE: nativesdk-qemu
+Homepage: http://qemu.org
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libglib-2.0-0 (>= 2.42.1), nativesdk-dtc (>= 1.4.1+git0+302fca9f4c), nativesdk-libstdc++6 (>= 4.9.2), nativesdk-libssp0 (>= 4.9.2), nativesdk-libpixman-1-0 (>= 0.32.6), nativesdk-libgcc1 (>= 4.9.2), nativesdk-libsdl-1.2-0 (>= 1.2.15), nativesdk-libc6 (>= 2.21)
+Source: http://wiki.qemu-project.org/download/qemu-2.2.0.tar.bz2 file://powerpc_rom.bin file://larger_default_ram_size.patch file://disable-grabs.patch file://exclude-some-arm-EABI-obsolete-syscalls.patch file://wacom.patch file://configure-fix-Darwin-target-detection.patch file://qemu-enlarge-env-entry-size.patch file://Qemu-Arm-versatilepb-Add-memory-size-checking.patch

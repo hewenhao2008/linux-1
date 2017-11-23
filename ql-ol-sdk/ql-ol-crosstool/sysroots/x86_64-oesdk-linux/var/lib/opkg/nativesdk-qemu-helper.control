@@ -1,0 +1,12 @@
+Package: nativesdk-qemu-helper
+Version: 1.0-r9
+Description: Qemu helper scripts
+ Qemu helper scripts.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: x86_64-nativesdk
+OE: nativesdk-qemu-helper
+Depends: nativesdk-libc6 (>= 2.21), nativesdk-qemu
+Source: file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu-internal file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu-addptable2image file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu-gen-tapdevs file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu-ifup file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu-ifdown file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/oe-find-native-sysroot file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu-extract-sdk file:///home/ol/Beta_R02_linux/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/oe-core/scripts/runqemu-export-rootfs file://tunctl.c file://raw2flash.c

@@ -1,0 +1,42 @@
+PN: mtd-utils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: mtd-utils version 1.0-r1
+RDEPENDS_mtd-utils-ubifs: util-linux-libuuid (>= 2.25.2) glibc (>= 2.21) zlib (>= 1.2.8) lzo (>= 2.09)
+SECTION: base
+PKG_mtd-utils-ubifs: mtd-utils-ubifs
+FILES_mtd-utils-ubifs: /usr/sbin/mkfs.ubifs /usr/sbin/ubi*
+FILERPROVIDESFLIST_mtd-utils-ubifs: /usr/sbin/ubirmvol /usr/sbin/ubinize /usr/sbin/ubiblock /usr/sbin/ubiformat /usr/sbin/ubimkvol /usr/sbin/ubirename /usr/sbin/ubiupdatevol /usr/sbin/ubiattach /usr/sbin/ubirsvol /usr/sbin/ubinfo /usr/sbin/mkfs.ubifs /usr/sbin/ubicrc32 /usr/sbin/ubidetach
+FILES_INFO: {"/usr/sbin/ubirmvol": 21756, "/usr/sbin/ubirename": 20632, "/usr/sbin/ubiblock": 20828, "/usr/sbin/ubiformat": 61540, "/usr/sbin/ubidetach": 22608, "/usr/sbin/ubimkvol": 24324, "/usr/sbin/ubinize": 39064, "/usr/sbin/ubiupdatevol": 23800, "/usr/sbin/ubirsvol": 22784, "/usr/sbin/ubinfo": 26064, "/usr/sbin/ubiattach": 23912, "/usr/sbin/ubicrc32": 8796, "/usr/sbin/mkfs.ubifs": 60772}
+FILERPROVIDES_/usr/sbin/ubirmvol_mtd-utils-ubifs: elf(buildid) (= 8cca5153652f15e919f1b3e6e7bd37870f5a61d4)
+FILERPROVIDES_/usr/sbin/ubinize_mtd-utils-ubifs: elf(buildid) (= 067f576092bafd04dc1215b3ab22616130b1227e)
+FILERPROVIDES_/usr/sbin/ubiblock_mtd-utils-ubifs: elf(buildid) (= 4105f353b32850ad1faac7faddda9d2e94c4d94b)
+FILERPROVIDES_/usr/sbin/ubiformat_mtd-utils-ubifs: elf(buildid) (= 41bddefcd62de9878eb928dbab17997e4250809b)
+FILERPROVIDES_/usr/sbin/ubimkvol_mtd-utils-ubifs: elf(buildid) (= ab5db00890a1ed1a4a3ad02c33fc0e1383d10d33)
+FILERPROVIDES_/usr/sbin/ubirename_mtd-utils-ubifs: elf(buildid) (= 77ace07202cd682c2f466c628a5b9e8cd633cbb8)
+FILERPROVIDES_/usr/sbin/ubiupdatevol_mtd-utils-ubifs: elf(buildid) (= 81534bb15496e231ae8f3037f9c51f5f27a75b9b)
+FILERPROVIDES_/usr/sbin/ubiattach_mtd-utils-ubifs: elf(buildid) (= 54ace52d4aeba6e4c7aefe8fd4e09b91060a69a7)
+FILERPROVIDES_/usr/sbin/ubirsvol_mtd-utils-ubifs: elf(buildid) (= ba293737a57079b6ea566cd5ed1e8e5442636c91)
+FILERPROVIDES_/usr/sbin/ubinfo_mtd-utils-ubifs: elf(buildid) (= 1ebd67e9e69b22295a5e99c3bfec090f91516fbe)
+FILERPROVIDES_/usr/sbin/mkfs.ubifs_mtd-utils-ubifs: elf(buildid) (= 63f1f03a58f73fe25c8c6a51fa027f08e4a6a066)
+FILERPROVIDES_/usr/sbin/ubicrc32_mtd-utils-ubifs: elf(buildid) (= 86aa4eba606c0dc51e3258ebcc7bf9af2f75da92)
+FILERPROVIDES_/usr/sbin/ubidetach_mtd-utils-ubifs: elf(buildid) (= 50d8417a9ad1b9de30a1b8280c8269d6bd93c386)
+FILERDEPENDSFLIST_mtd-utils-ubifs: /usr/sbin/ubirmvol /usr/sbin/ubinize /usr/sbin/ubiblock /usr/sbin/ubiformat /usr/sbin/ubimkvol /usr/sbin/ubirename /usr/sbin/ubiupdatevol /usr/sbin/ubiattach /usr/sbin/ubirsvol /usr/sbin/ubinfo /usr/sbin/mkfs.ubifs /usr/sbin/ubicrc32 /usr/sbin/ubidetach
+FILERDEPENDS_/usr/sbin/ubirmvol_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubinize_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiblock_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiformat_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubimkvol_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubirename_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiupdatevol_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiattach_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubirsvol_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubinfo_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mkfs.ubifs_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) liblzo2.so.2 libm.so.6 libm.so.6(GLIBC_2.4) libuuid.so.1 libuuid.so.1(UUID_1.0) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubicrc32_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubidetach_mtd-utils-ubifs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_mtd-utils-ubifs: 376880

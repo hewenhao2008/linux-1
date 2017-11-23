@@ -1,0 +1,22 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-math: Python math support
+RDEPENDS_python-math: python-core glibc (>= 2.21) libpython2 (>= 2.7.9) python-crypt
+SECTION: devel/python
+PKG_python-math: python-math
+FILES_python-math: /usr/lib/python2.7/lib-dynload/cmath.so /usr/lib/python2.7/lib-dynload/math.so /usr/lib/python2.7/lib-dynload/_random.so /usr/lib/python2.7/random.* /usr/lib/python2.7/sets.* 
+FILERPROVIDESFLIST_python-math: /usr/lib/python2.7/lib-dynload/math.so /usr/lib/python2.7/lib-dynload/cmath.so /usr/lib/python2.7/lib-dynload/@underscore@random.so
+FILES_INFO: {"/usr/lib/python2.7/random.pyc": 25480, "/usr/lib/python2.7/lib-dynload/math.so": 35532, "/usr/lib/python2.7/sets.pyc": 16783, "/usr/lib/python2.7/lib-dynload/_random.so": 10696, "/usr/lib/python2.7/sets.py": 19050, "/usr/lib/python2.7/lib-dynload/cmath.so": 36552, "/usr/lib/python2.7/random.py": 32323}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/math.so_python-math: elf(buildid) (= 3db91190d07c75f5085455ce9daa8a9ee9288fe5) math.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/cmath.so_python-math: cmath.so elf(buildid) (= d50cee7b091902a9ac4f1812ac7b497e9db56104)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@random.so_python-math: _random.so elf(buildid) (= c11da4749c1c081691d6a2a4796a35c85fecf71f)
+FILERDEPENDSFLIST_python-math: /usr/lib/python2.7/lib-dynload/math.so /usr/lib/python2.7/lib-dynload/cmath.so /usr/lib/python2.7/lib-dynload/@underscore@random.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/math.so_python-math: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/cmath.so_python-math: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@random.so_python-math: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-math: 176416

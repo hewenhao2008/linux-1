@@ -1,0 +1,13 @@
+PN: quectel-common-api
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-common-api-doc: Quectel Common API  This package contains documentation.
+SUMMARY_quectel-common-api-doc: quectel-common-api version git-invalidgit-r01 - Documentation files
+SECTION_quectel-common-api-doc: doc
+PKG_quectel-common-api-doc: quectel-common-api-doc
+FILES_quectel-common-api-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-common-api-doc: 0

@@ -1,0 +1,16 @@
+PN: quectel-common-api
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-common-api-dev: Quectel Common API  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-common-api-dev: quectel-common-api version git-invalidgit-r01 - Development files
+RDEPENDS_quectel-common-api-dev: quectel-common-api (= git-invalidgit-r01)
+RRECOMMENDS_quectel-common-api-dev: glibc-dev
+SECTION_quectel-common-api-dev: devel
+PKG_quectel-common-api-dev: quectel-common-api-dev
+ALLOW_EMPTY_quectel-common-api-dev: 1
+FILES_quectel-common-api-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-common-api/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libquectel_log.la": 943, "/usr/lib/libquectel_utils.so": 25, "/usr/include/quectel-common-api/eloop.h": 14105, "/usr/lib/libeloop.so": 17, "/usr/include/quectel-common-api/quectel_log.h": 5169, "/usr/include/quectel-common-api/quectel_process.h": 491, "/usr/lib/pkgconfig/quectel-common-api.pc": 249, "/usr/include/quectel-common-api/os.h": 19646, "/usr/lib/libquectel_utils.la": 955, "/usr/lib/libeloop.la": 907, "/usr/lib/libquectel_log.so": 23, "/usr/include/quectel-common-api/quectel_malloc.h": 397, "/usr/include/quectel-common-api/list.h": 2464}
+PKGSIZE_quectel-common-api-dev: 45391

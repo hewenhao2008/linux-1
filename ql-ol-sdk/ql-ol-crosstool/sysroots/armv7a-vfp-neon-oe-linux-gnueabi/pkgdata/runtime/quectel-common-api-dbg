@@ -1,0 +1,15 @@
+PN: quectel-common-api
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-common-api-dbg: Quectel Common API  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-common-api-dbg: quectel-common-api version git-invalidgit-r01 - Debugging files
+RRECOMMENDS_quectel-common-api-dbg: glibc-dbg
+SECTION_quectel-common-api-dbg: devel
+PKG_quectel-common-api-dbg: quectel-common-api-dbg
+ALLOW_EMPTY_quectel-common-api-dbg: 1
+FILES_quectel-common-api-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-common-api/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-common-api/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-common-api/quectel-common-api/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libquectel_utils.so.1.0.0": 10899, "/usr/lib/.debug/libeloop.so.1.0.0": 88461, "/usr/lib/.debug/libquectel_log.so.1.0.0": 18068}
+PKGSIZE_quectel-common-api-dbg: 117428

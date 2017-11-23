@@ -1,0 +1,14 @@
+PN: quectel-common-api
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-common-api-staticdev: Quectel Common API  This package contains static libraries for software development.
+SUMMARY_quectel-common-api-staticdev: quectel-common-api version git-invalidgit-r01 - Development files (Static Libraries)
+RDEPENDS_quectel-common-api-staticdev: quectel-common-api-dev (= git-invalidgit-r01)
+SECTION_quectel-common-api-staticdev: devel
+PKG_quectel-common-api-staticdev: quectel-common-api-staticdev
+FILES_quectel-common-api-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-common-api/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-common-api-staticdev: 0

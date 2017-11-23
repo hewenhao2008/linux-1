@@ -1,0 +1,24 @@
+PN: ffmpeg
+PV: 2.3
+PR: r0
+PKGV: 2.3
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video..
+SUMMARY: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
+RDEPENDS_ffmpeg: glibc (>= 2.21) libbz2 (>= 1.0.6)
+SECTION: base
+PKG_ffmpeg: ffmpeg
+FILES_ffmpeg: /usr/bin/* /usr/sbin/* /usr/lib/ffmpeg/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ffmpeg /usr/lib/ffmpeg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/lib*.so.* /lib/pkgconfig/*
+FILERPROVIDESFLIST_ffmpeg: /lib/libavformat.so.55.48.100 /usr/bin/ffprobe /lib/libavcodec.so.55.69.100 /lib/libavutil.so.52.92.100
+FILES_INFO: {"/lib/libavcodec.so.55": 1518320, "/lib/pkgconfig/libavcodec.pc": 291, "/lib/libavformat.so.55": 587196, "/lib/pkgconfig/libavutil.pc": 254, "/lib/libavutil.so.52": 170728, "/usr/bin/ffprobe": 86896, "/lib/pkgconfig/libavformat.pc": 329}
+FILERPROVIDES_/lib/libavformat.so.55.48.100_ffmpeg: elf(buildid) (= 1aa11e805397004ff593425bf7599bea3cca7f97) libavformat.so.55 libavformat.so.55(LIBAVFORMAT_55)
+FILERPROVIDES_/usr/bin/ffprobe_ffmpeg: elf(buildid) (= 38ba8c1355d5cec071322c6fa3fd65ca7bb98b36)
+FILERPROVIDES_/lib/libavcodec.so.55.69.100_ffmpeg: elf(buildid) (= cef27919fb3ffa7dfa6f4e20294874dd2f530ee9) libavcodec.so.55 libavcodec.so.55(LIBAVCODEC_55)
+FILERPROVIDES_/lib/libavutil.so.52.92.100_ffmpeg: elf(buildid) (= de66189e9cbe5108c857b582baa0a12462e2cfe6) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52)
+FILERDEPENDSFLIST_ffmpeg: /lib/libavformat.so.55.48.100 /usr/bin/ffprobe /lib/libavcodec.so.55.69.100 /lib/libavutil.so.52.92.100
+FILERDEPENDS_/lib/libavformat.so.55.48.100_ffmpeg: libavcodec.so.55 libavcodec.so.55(LIBAVCODEC_55) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52) libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ffprobe_ffmpeg: libavcodec.so.55 libavcodec.so.55(LIBAVCODEC_55) libavformat.so.55 libavformat.so.55(LIBAVFORMAT_55) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/lib/libavcodec.so.55.69.100_ffmpeg: libavutil.so.52 libavutil.so.52(LIBAVUTIL_52) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/lib/libavutil.so.52.92.100_ffmpeg: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ffmpeg: 2364014

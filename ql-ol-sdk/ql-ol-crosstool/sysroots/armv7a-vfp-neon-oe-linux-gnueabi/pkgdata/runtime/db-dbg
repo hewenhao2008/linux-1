@@ -1,0 +1,15 @@
+PN: db
+PV: 6.0.30
+PR: r0
+PKGV: 6.0.30
+PKGR: r0
+LICENSE: AGPL-3.0
+DESCRIPTION_db-dbg: Berkeley Database v6.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_db-dbg: Berkeley Database v6 - Debugging files
+RRECOMMENDS_db-dbg: libstdc++-dbg glibc-dbg libgcc-dbg
+SECTION_db-dbg: devel
+PKG_db-dbg: db-dbg
+ALLOW_EMPTY_db-dbg: 1
+FILES_db-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/db/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/db/.debug /usr/lib/matchbox-panel/.debug /usr/lib/db/db/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/db_load": 9049, "/usr/lib/.debug/libdb-6.0.so": 114353, "/usr/bin/.debug/db_recover": 6250, "/usr/bin/.debug/db_dump": 8399, "/usr/bin/.debug/db_hotbackup": 6346, "/usr/bin/.debug/db_log_verify": 8268, "/usr/bin/.debug/db_printlog": 16103, "/usr/bin/.debug/db_upgrade": 5951, "/usr/bin/.debug/db_checkpoint": 6211, "/usr/bin/.debug/db_tuner": 9765, "/usr/lib/.debug/libdb_cxx-6.0.so": 151755, "/usr/bin/.debug/db_archive": 5902, "/usr/bin/.debug/db_verify": 8048, "/usr/bin/.debug/db_replicate": 5694, "/usr/bin/.debug/db_stat": 8056, "/usr/bin/.debug/db_deadlock": 6233}
+PKGSIZE_db-dbg: 376383

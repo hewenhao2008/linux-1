@@ -1,0 +1,22 @@
+PN: libical
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: LGPLv2.1 | MPL-1
+DESCRIPTION: iCal and scheduling (RFC 2445, 2446, 2447) library.
+SUMMARY: iCal and scheduling (RFC 2445, 2446, 2447) library
+RDEPENDS_libical: glibc (>= 2.21)
+SECTION: libs
+PKG_libical: libical
+FILES_libical: /usr/bin/* /usr/sbin/* /usr/lib/libical/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libical /usr/lib/libical/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libical: /usr/lib/libical.so.0.48.0 /usr/lib/libicalss.so.0.48.0 /usr/lib/libicalvcal.so.0.48.0
+FILES_INFO: {"/usr/lib/libicalvcal.so.0": 56020, "/usr/lib/libicalss.so.0": 69428, "/usr/lib/libical.so.0": 263056}
+FILERPROVIDES_/usr/lib/libical.so.0.48.0_libical: elf(buildid) (= 7c6d9c18a16485df25b38ef4237321f71137fe26) libical.so.0
+FILERPROVIDES_/usr/lib/libicalss.so.0.48.0_libical: elf(buildid) (= 178e37c554439865bf1398d04f2c76af8df09c89) libicalss.so.0
+FILERPROVIDES_/usr/lib/libicalvcal.so.0.48.0_libical: elf(buildid) (= 0cbd18ee25391f3f0e7a712c9c53324008a44467) libicalvcal.so.0
+FILERDEPENDSFLIST_libical: /usr/lib/libical.so.0.48.0 /usr/lib/libicalss.so.0.48.0 /usr/lib/libicalvcal.so.0.48.0
+FILERDEPENDS_/usr/lib/libical.so.0.48.0_libical: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libicalss.so.0.48.0_libical: libc.so.6 libc.so.6(GLIBC_2.4) libical.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libicalvcal.so.0.48.0_libical: libc.so.6 libc.so.6(GLIBC_2.4) libical.so.0 libpthread.so.0 rtld(GNU_HASH)
+PKGSIZE_libical: 388504

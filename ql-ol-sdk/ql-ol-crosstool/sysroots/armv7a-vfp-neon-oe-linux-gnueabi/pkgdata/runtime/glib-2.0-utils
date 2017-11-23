@@ -1,0 +1,43 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.
+SUMMARY: A general-purpose utility library
+RDEPENDS_glib-2.0-utils: glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RPROVIDES_glib-2.0-utils:  glib-2.0-utils
+SECTION: libs
+PKG_glib-2.0-utils: libglib-2.0-utils
+FILES_glib-2.0-utils: /usr/bin/* /usr/share/glib-2.0/gettext
+FILERPROVIDESFLIST_glib-2.0-utils: /usr/bin/gapplication /usr/bin/glib-compile-schemas /usr/bin/glib-genmarshal /usr/bin/gtester /usr/bin/gdbus /usr/bin/gio-querymodules /usr/bin/gresource /usr/bin/gobject-query /usr/bin/gsettings /usr/bin/glib-compile-resources
+FILES_INFO: {"/usr/bin/gtester": 16688, "/usr/bin/gtester-report": 18669, "/usr/share/glib-2.0/gettext/po/Makefile.in.in": 8068, "/usr/bin/glib-compile-schemas": 33096, "/usr/bin/glib-genmarshal": 25232, "/usr/bin/gobject-query": 6156, "/usr/bin/glib-mkenums": 17972, "/usr/bin/gapplication": 11452, "/usr/bin/gdbus": 27392, "/usr/bin/gio-querymodules": 6208, "/usr/bin/gresource": 9276, "/usr/bin/gdbus-codegen": 1282, "/usr/bin/glib-gettextize": 5376, "/usr/bin/gsettings": 15976, "/usr/bin/glib-compile-resources": 27056}
+FILERPROVIDES_/usr/bin/gapplication_glib-2.0-utils: elf(buildid) (= db78a05ab3a2d15e3b673f24055ecb801a123bc4)
+FILERPROVIDES_/usr/bin/glib-compile-schemas_glib-2.0-utils: elf(buildid) (= c9fa6203c1f0d04dd0b143a4625c90b72cd11c76)
+FILERPROVIDES_/usr/bin/glib-genmarshal_glib-2.0-utils: elf(buildid) (= f7f34ac18bd78d0167c061ceec010e5ad41b7466)
+FILERPROVIDES_/usr/bin/gtester_glib-2.0-utils: elf(buildid) (= 4bc6f4131f689f7073f7a7307d3a58f29398faee)
+FILERPROVIDES_/usr/bin/gdbus_glib-2.0-utils: elf(buildid) (= ffecf8b95044825d477e977763889239e54630e0)
+FILERPROVIDES_/usr/bin/gio-querymodules_glib-2.0-utils: elf(buildid) (= deacf2faea6a87d1d063964d0c0b7ab37f307a64)
+FILERPROVIDES_/usr/bin/gresource_glib-2.0-utils: elf(buildid) (= 22ebe076b2e4ddd1d2e5abc33474a31d6fda6ed9)
+FILERPROVIDES_/usr/bin/gobject-query_glib-2.0-utils: elf(buildid) (= f6cd37c48e1bb7847744770cfbdd6663bfb59b08)
+FILERPROVIDES_/usr/bin/gsettings_glib-2.0-utils: elf(buildid) (= 7dde1504f2ecfd18a853e00f7c337bc3f5ef415c)
+FILERPROVIDES_/usr/bin/glib-compile-resources_glib-2.0-utils: elf(buildid) (= d4c99c8e17a8a6f45b50910a17620137174466a9)
+FILERDEPENDSFLIST_glib-2.0-utils: /usr/bin/gapplication /usr/bin/glib-compile-schemas /usr/bin/glib-genmarshal /usr/bin/gdbus-codegen /usr/bin/glib-mkenums /usr/bin/gtester /usr/bin/gdbus /usr/bin/glib-gettextize /usr/bin/gio-querymodules /usr/bin/gresource /usr/bin/gobject-query /usr/bin/gtester-report /usr/bin/gsettings /usr/bin/glib-compile-resources
+FILERDEPENDS_/usr/bin/gapplication_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/glib-compile-schemas_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/glib-genmarshal_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gdbus-codegen_glib-2.0-utils: /usr/bin/env
+FILERDEPENDS_/usr/bin/glib-mkenums_glib-2.0-utils: /usr/bin/env
+FILERDEPENDS_/usr/bin/gtester_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gdbus_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/glib-gettextize_glib-2.0-utils: /bin/sh
+FILERDEPENDS_/usr/bin/gio-querymodules_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gresource_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gobject-query_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libgobject-2.0.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gtester-report_glib-2.0-utils: /usr/bin/env
+FILERDEPENDS_/usr/bin/gsettings_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/glib-compile-resources_glib-2.0-utils: libc.so.6 libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_glib-2.0-utils: 229899

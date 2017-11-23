@@ -1,0 +1,3 @@
+libeloop.so.1:/usr/lib:git-invalidgit
+libquectel_log.so.1:/usr/lib:git-invalidgit
+libquectel_utils.so.1:/usr/lib:git-invalidgit

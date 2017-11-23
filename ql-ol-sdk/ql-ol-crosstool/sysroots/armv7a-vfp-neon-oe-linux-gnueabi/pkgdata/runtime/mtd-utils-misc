@@ -1,0 +1,36 @@
+PN: mtd-utils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: mtd-utils version 1.0-r1
+RDEPENDS_mtd-utils-misc: glibc (>= 2.21)
+SECTION: base
+PKG_mtd-utils-misc: mtd-utils-misc
+FILES_mtd-utils-misc: /usr/sbin/nftl* /usr/sbin/ftl* /usr/sbin/rfd* /usr/sbin/doc* /usr/sbin/serve_image /usr/sbin/recv_image
+FILERPROVIDESFLIST_mtd-utils-misc: /usr/sbin/nftl@underscore@format /usr/sbin/serve@underscore@image /usr/sbin/nftldump /usr/sbin/recv@underscore@image /usr/sbin/rfddump /usr/sbin/ftl@underscore@check /usr/sbin/docfdisk /usr/sbin/rfdformat /usr/sbin/ftl@underscore@format /usr/sbin/doc@underscore@loadbios
+FILES_INFO: {"/usr/sbin/doc_loadbios": 6144, "/usr/sbin/nftl_format": 10256, "/usr/sbin/nftldump": 10256, "/usr/sbin/rfddump": 8292, "/usr/sbin/ftl_check": 6320, "/usr/sbin/recv_image": 18468, "/usr/sbin/docfdisk": 8836, "/usr/sbin/rfdformat": 5308, "/usr/sbin/serve_image": 15172, "/usr/sbin/ftl_format": 7664}
+FILERPROVIDES_/usr/sbin/nftl@underscore@format_mtd-utils-misc: elf(buildid) (= 2f8cf763d8295faa0932bf6dfad80cdbcf8a8f17)
+FILERPROVIDES_/usr/sbin/serve@underscore@image_mtd-utils-misc: elf(buildid) (= cfe3eab5d51fe71beffdf5ce714b9c1168fbc56a)
+FILERPROVIDES_/usr/sbin/nftldump_mtd-utils-misc: elf(buildid) (= 3e4ec60c6ade95284325045b886afdbffbb54c7c)
+FILERPROVIDES_/usr/sbin/recv@underscore@image_mtd-utils-misc: elf(buildid) (= d1e549271a9dd243619a419cc81e56e9870f339c)
+FILERPROVIDES_/usr/sbin/rfddump_mtd-utils-misc: elf(buildid) (= 2d835c8d2b696e28fb633e152ad8724e0d78200e)
+FILERPROVIDES_/usr/sbin/ftl@underscore@check_mtd-utils-misc: elf(buildid) (= cbb47018a80752e6c4785c16c55e16354551d284)
+FILERPROVIDES_/usr/sbin/docfdisk_mtd-utils-misc: elf(buildid) (= 0e80f43f801eb8c6b4033d6a55ac0a877e8a712a)
+FILERPROVIDES_/usr/sbin/rfdformat_mtd-utils-misc: elf(buildid) (= 628b9adfda9b3fa96d8f8549a5c59c487bf0b263)
+FILERPROVIDES_/usr/sbin/ftl@underscore@format_mtd-utils-misc: elf(buildid) (= 5dc8a743f2246bfa02104a997f3f9adfa13de7de)
+FILERPROVIDES_/usr/sbin/doc@underscore@loadbios_mtd-utils-misc: elf(buildid) (= f7d610a25ae7c5c36f13f4adfebeecd3a5e97b85)
+FILERDEPENDSFLIST_mtd-utils-misc: /usr/sbin/nftl@underscore@format /usr/sbin/serve@underscore@image /usr/sbin/nftldump /usr/sbin/recv@underscore@image /usr/sbin/rfddump /usr/sbin/ftl@underscore@check /usr/sbin/docfdisk /usr/sbin/rfdformat /usr/sbin/ftl@underscore@format /usr/sbin/doc@underscore@loadbios
+FILERDEPENDS_/usr/sbin/nftl@underscore@format_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/serve@underscore@image_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nftldump_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/recv@underscore@image_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/rfddump_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ftl@underscore@check_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/docfdisk_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/rfdformat_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ftl@underscore@format_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/doc@underscore@loadbios_mtd-utils-misc: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_mtd-utils-misc: 96716

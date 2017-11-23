@@ -1,0 +1,22 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE_attr: GPLv2+
+DESCRIPTION: Utilities for manipulating filesystem extended attributes.
+SUMMARY: Utilities for manipulating filesystem extended attributes
+RDEPENDS_attr: glibc (>= 2.21) libattr (>= 2.4.47)
+SECTION: libs
+PKG_attr: attr
+FILES_attr: /usr/bin/* /usr/sbin/* /usr/lib/attr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/attr /usr/lib/attr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_attr: /usr/bin/setfattr /usr/bin/attr /usr/bin/getfattr
+FILES_INFO: {"/usr/bin/setfattr": 11136, "/usr/bin/attr": 7224, "/usr/bin/getfattr": 13720}
+FILERPROVIDES_/usr/bin/setfattr_attr: elf(buildid) (= 9bf1b7e66613e1715aa51a788528ebd4e8364fc4)
+FILERPROVIDES_/usr/bin/attr_attr: elf(buildid) (= b87dd5467f88676f5ab1e19335159fe5bfce11fd)
+FILERPROVIDES_/usr/bin/getfattr_attr: elf(buildid) (= 4d775123a307b93c2083831305532d316ef7f388)
+FILERDEPENDSFLIST_attr: /usr/bin/setfattr /usr/bin/attr /usr/bin/getfattr
+FILERDEPENDS_/usr/bin/setfattr_attr: libattr.so.1 libattr.so.1(ATTR_1.0) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/attr_attr: libattr.so.1 libattr.so.1(ATTR_1.0) libattr.so.1(ATTR_1.2) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/getfattr_attr: libattr.so.1 libattr.so.1(ATTR_1.0) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_attr: 32080

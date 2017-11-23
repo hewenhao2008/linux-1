@@ -1,0 +1,22 @@
+PN: quectel-common-api
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Common API
+SUMMARY: quectel-common-api version git-invalidgit-r01
+RDEPENDS_quectel-common-api: glibc (>= 2.21)
+SECTION: base
+PKG_quectel-common-api: quectel-common-api
+FILES_quectel-common-api: /usr/bin/* /usr/sbin/* /usr/lib/quectel-common-api/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-common-api /usr/lib/quectel-common-api/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_quectel-common-api: /usr/lib/libeloop.so.1.0.0 /usr/lib/libquectel@underscore@log.so.1.0.0 /usr/lib/libquectel@underscore@utils.so.1.0.0
+FILES_INFO: {"/usr/lib/libquectel_utils.so.1": 5016, "/usr/lib/libquectel_log.so.1": 7352, "/usr/lib/libeloop.so.1": 28112}
+FILERPROVIDES_/usr/lib/libeloop.so.1.0.0_quectel-common-api: elf(buildid) (= d85fc575a58e73c680825d8c887dd0e8b5adf2a8) libeloop.so.1
+FILERPROVIDES_/usr/lib/libquectel@underscore@log.so.1.0.0_quectel-common-api: elf(buildid) (= ef75103558a4e582eb55f21699a0e142950f3e82) libquectel_log.so.1
+FILERPROVIDES_/usr/lib/libquectel@underscore@utils.so.1.0.0_quectel-common-api: elf(buildid) (= 95b3e2b8b8aa197061a6b4707ea2c23f0198adda) libquectel_utils.so.1
+FILERDEPENDSFLIST_quectel-common-api: /usr/lib/libeloop.so.1.0.0 /usr/lib/libquectel@underscore@log.so.1.0.0 /usr/lib/libquectel@underscore@utils.so.1.0.0
+FILERDEPENDS_/usr/lib/libeloop.so.1.0.0_quectel-common-api: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libquectel@underscore@log.so.1.0.0_quectel-common-api: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libquectel@underscore@utils.so.1.0.0_quectel-common-api: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_quectel-common-api: 40480
